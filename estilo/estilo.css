@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    margin: 0;
+    background-color: antiquewhite;
+    color:brown
+}
+@media all and (max-width:800px) {
+    .navigation {
+        flex-flow: column-rap;
+    }
+}
+@media all and (max-width:600px) {
+    .navigation {
+        flex-flow: column-rap;
+    }
+}
+@media all and (max-width:300px) {
+    .navigation {
+        flex-flow: nowrap;
+    }
+}
+
+body{
+    font-family:'Indie Flower', cursive,'Raleway', sans-serif;
+    margin: 30px;
+}
+
+header{
+    text-align: center;
+    padding: 0%;
+    margin: auto;
+    width: 600px;
+}
+h1{
+    font-size: 80px;
+    padding: 5px;
+    border: 5px dotted rgb(255, 136, 0);
+    border-radius: 20px; 
+    text-align: center;
+    font-family: 'Indie Flower', cursive,'Raleway', sans-serif;;
+    font-weight: bold;
+}
+h2 {
+    font-size: 50px;
+    padding: 20px;
+    border: 5px dotted rgb(255, 136, 0);
+    border-radius: 20px; 
+    text-align: center;
+    font-family: 'Indie Flower', cursive,'Raleway', sans-serif;  
+}
+
+nav{
+    background-color:bisque;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 50px;
+    text-align: center;    
+}
+a{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px;
+    background-color: bisque;
+    text-decoration: none;
+}
+
+.productos{
+    margin: 5px;
+    font-family: 'Indie Flower', cursive,'Raleway', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    float: left;
+    margin-left: 20px;
+}
+
+.textohistoria{
+    clear: both; font-weight: bold; text-align: left; color: brown; font-size: 30px; margin: auto; background-color: bisque;
+}
+
+footer{
+    text-align: center; padding: 0%; margin: auto; width: 600px;
+}
+#textoderechos{
+    color: black; font-weight: bold;
+}
+.mapa{
+    margin: 50px;
+}
