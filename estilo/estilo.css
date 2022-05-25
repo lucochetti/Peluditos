@@ -4,7 +4,7 @@
     background-color: antiquewhite;
     color:brown
 }
-@media all and (max-width:800px) {
+/*@media all and (max-width:800px) {
     .navigation {
         flex-flow: column-rap;
     }
@@ -18,6 +18,17 @@
     .navigation {
         flex-flow: nowrap;
     }
+}*/
+.main {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contenedor {
+    width:80%;
+    max-width:1000px;
+    margin:0 auto;
+    overflow: hidden;
 }
 
 body{
