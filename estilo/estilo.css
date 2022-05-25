@@ -4,29 +4,20 @@
     background-color: antiquewhite;
     color:brown
 }
-/*@media all and (max-width:800px) {
-    .navigation {
-        flex-flow: column-rap;
+@media screen and (max-width:800px) {
+    .main {
+        width:100%;
     }
 }
-@media all and (max-width:600px) {
-    .navigation {
-        flex-flow: column-rap;
-    }
-}
-@media all and (max-width:300px) {
-    .navigation {
-        flex-flow: nowrap;
-    }
-}*/
+
 .main {
     width: 70%;
     padding: 20px;
     box-sizing: border-box;
 }
 .contenedor {
-    width:80%;
-    max-width:1000px;
+    width:70%;
+    max-width:700px;
     margin:0 auto;
     overflow: hidden;
 }
